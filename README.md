@@ -1,36 +1,42 @@
 # Task list
 
+Simple task list moved from vanilla JS into React.js The app now doesn't have the functionality added. Soon it will be possible use the buttons to:
+
+- add tasks
+- mark tasks as done
+- remove tasks from the list
+- mark all tasks as done
+- hide finished tasks
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Click on the link to see how it works || https://ewelina-en.github.io/todo-list-react/
 
-In the project directory, you can run:
+## Short instruction
 
-### `npm start`
+For now it is not possible to use the buttons to perform those actions.
+1. Type in the task in the input field
+2. Click "Dodaj zadanie" button
+3. The task will appear in the "Lista zadań" section
+4. If task done - click the green checkbox on the left
+5. If you want to delete the task, click the red icon on the right
+6. After any task is entered into the list, two buttons appear: "Ukryj ukończone" and "Ukończ wszystkie".
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    Button "Ukryj ukończone" toggles the status of all finished tasks to hidden. Clicking on it again shows the list.
+    Button "Ukończ" sets the status of all tasks to the done. The button is disabled if all tasks are marked as done.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Tools
 
-### `npm run build`
+- HTML
+- CSS
+- BEM
+- ES6+
+- Immutability principle
+- Grid
+- React.js
+- Media query
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Other information
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Project done as a part of front-end development course at YouCode.
 
