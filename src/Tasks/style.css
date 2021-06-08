@@ -36,6 +36,7 @@
 .list__button--done {
     background-color: green;
     cursor: pointer;
+    transition: 1s;
 }
 
 .list__button--done:hover {
@@ -50,6 +51,7 @@
 .list__button--remove {
     background-color: red;
     cursor: pointer;
+    transition: 1s;
 }
 
 .list__button--remove:hover {
