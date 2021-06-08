@@ -34,7 +34,7 @@ body {
     grid-gap: 10px;
 }
 
-.subHeader__button {   
+.subHeader__button {
     background-color: white;
     color: teal;
     padding: 5px;
@@ -53,6 +53,6 @@ body {
     cursor: default;
 }
 
-.hide{
-    display: none !important;
+.hide {
+    display: none;
 }
