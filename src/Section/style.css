@@ -53,6 +53,13 @@ body {
     cursor: default;
 }
 
+.subHeader__title {
+    background-color: white;
+    padding: 18px;
+    margin: 10px 0 3px 0;
+    grid-gap: 10px;
+}
+
 .hide {
     display: none;
 }
