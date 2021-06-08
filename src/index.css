@@ -36,11 +36,11 @@ body {
 
 @media(max-width:767px) {
   .subHeader__button {
-      grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
-.subHeader__button {   
+.subHeader__button {
   background-color: white;
   color: teal;
   padding: 5px;
@@ -66,6 +66,6 @@ body {
   cursor: default;
 }
 
-.hide{
+.hide {
   display: none !important;
 }

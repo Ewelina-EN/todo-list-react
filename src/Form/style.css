@@ -38,5 +38,5 @@
 }
 
 .toDoList__form--taskButton:active {
-    background-color:  hsl(180, 100%, 35%);
+    background-color: hsl(180, 100%, 35%);
 }
