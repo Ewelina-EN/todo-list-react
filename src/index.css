@@ -39,8 +39,8 @@ body {
 .subHeader__button:disabled {
   color: #aaa;
   cursor: default;
-  }
-  .hide {
-    display: none;
-  }
-  
+}
+
+.hide {
+  display: none;
+}
