@@ -5,52 +5,20 @@
 }
 
 .section__subHeader {
-  display: grid;
-  grid-template-columns: 1fr auto auto;
+  display: flex;
+  justify-content: space-between;
   border-bottom: 1px solid #ddd;
-  font-weight: bold;
-  text-align: left;
-  background-color: white;
-  padding: 10px;
-  grid-gap: 10px;
+  padding: 0 20px;
+  flex-wrap: wrap;
+  flex-grow: 1;
 }
 
-.section__body {
-  text-align: left;
-  background-color: white;
-  margin: 10px 0 3px 0;
-  padding: 10px;
+@media (max-width: 767 px) {
+  .section__subHeader {
+    flex-direction: column;
+  }
 }
 
 .section__title {
   font-size: 20px;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-*, ::after, ::before {
-  box-sizing: inherit;
-}
-
-body {
-  font-family: 'Montserrat', sans-serif;
-  background-color: #ececec;
-}
-
-.container {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 0 20px;
-}
-
-.header {
-  font-weight: bolder;
-  font-size: 30px;
-  padding-bottom: 5px;
-}
-
-.hide {
-  display: none;
 }
