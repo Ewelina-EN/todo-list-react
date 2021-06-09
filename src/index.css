@@ -43,27 +43,4 @@ body {
   .hide {
     display: none;
   }
-  .section {
-    margin: 10px 0;
-    background: white;
-    box-shadow: 0 0 5px #ddd;
-  }
-  .section__subHeader {
-    display: grid;
-    grid-template-columns: 1fr auto auto;
-    border-bottom: 1px solid #ddd;
-    font-weight: bold;
-    text-align: left;
-    background-color: white;
-    padding: 10px;
-    grid-gap: 10px;
-  }
-  .section__body {
-    text-align: left;
-    background-color: white;
-    margin: 10px 0 3px 0;
-    padding: 10px;
-  }
-  .section__title {
-    font-size: 20px;
-  }
+  
