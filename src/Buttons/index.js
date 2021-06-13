@@ -1,13 +1,13 @@
 import React from "react";
 import "./style.css";
 
-const Buttons = ({ tasks, hideDone}) => (
+const Buttons = ({ tasks, hideDone, toggleHideDone }) => (
 
   <div className="subHeader">
     {tasks.length > 0 && (
       <>
-        <button className="subHeader__button">
-          {hideDone? "Pokaż" : "Ukryj"} ukończone
+        <button onClick={toggleHideDone} className="subHeader__button">
+          {hideDone ? "Pokaż" : "Ukryj"} ukończone
       </button>
         <button
           className="subHeader__button"
