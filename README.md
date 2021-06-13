@@ -1,5 +1,7 @@
 # Task list
 
+Click on the link to see how it works || https://ewelina-en.github.io/todo-list-react/
+
 Simple task list moved from vanilla JS into React.js The app now doesn't have the functionality added. Soon it will be possible use the buttons to:
 
 - add tasks
@@ -9,8 +11,6 @@ Simple task list moved from vanilla JS into React.js The app now doesn't have th
 - hide finished tasks
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-Click on the link to see how it works || https://ewelina-en.github.io/todo-list-react/
 
 ## Short instruction
 
