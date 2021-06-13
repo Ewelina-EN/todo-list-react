@@ -17,6 +17,12 @@
 
 .subHeader__button:hover {
     color: hsl(180, 100%, 35%);
+    transition: 1s;
+}
+
+.subHeader__button:active {
+    color: hsl(180, 100%, 40%);
+    transition: 1s;
 }
 
 .subHeader__button:disabled {
