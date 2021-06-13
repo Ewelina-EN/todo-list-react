@@ -3,10 +3,10 @@ import "./style.css";
 
 const Form = () => (
     <form className="form">
-        <div className="toDoList__form">
-            <input className="toDoList__form--newTask" requires placeholder="Co jest do zrobienia?"
+        <div className="form__toDoList">
+            <input className="form__toDoList--newTask" requires placeholder="Co jest do zrobienia?"
                 autoFocus />
-            <button className="toDoList__form--taskButton">Dodaj zadanie</button>
+            <button className="form__toDoList--taskButton">Dodaj zadanie</button>
         </div>
     </form>
 );
