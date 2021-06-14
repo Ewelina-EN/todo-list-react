@@ -2,7 +2,7 @@
 
 Click on the link to see how it works || https://ewelina-en.github.io/todo-list-react/
 
-Simple task list moved from vanilla JS into React.js The app now doesn't have the functionality added. Soon it will be possible use the buttons to:
+Simple task list moved from vanilla JS into React.js The app have the functionality like:
 
 - add tasks
 - mark tasks as done
@@ -14,7 +14,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Short instruction
 
-For now it is not possible to use the buttons to perform those actions.
 1. Type in the task in the input field
 2. Click "Dodaj zadanie" button
 3. The task will appear in the "Lista zadań" section
@@ -27,14 +26,14 @@ For now it is not possible to use the buttons to perform those actions.
 
 ## Tools
 
-- HTML
-- CSS
-- BEM
-- ES6+
-- Immutability principle
-- Grid
-- React.js
-- Media query
+- Semantic HTML
+- CSS (grid/ flexbox/ media queries)
+- BEM naming
+- ES6+ features
+- Immutability
+- React
+- Webpack
+- Babel
 
 ## Other information
 
