@@ -16,15 +16,15 @@ const Form = ({ addNewTask }) => {
    };
 
    return (
-      <form className="form__toDoList" onSubmit={onFormSubmit}>
+      <form className="form" onSubmit={onFormSubmit}>
          <input
-            className="form__toDoList--newTask"
+            className="form__newTask"
             placeholder="Co jest do zrobienia?"
             value={newTaskContent}
             autoFocus
             onChange={({ target }) => setNewTaskContent(target.value)}
          />
-         <button className="form__toDoList--taskButton">Dodaj zadanie</button>
+         <button className="form__taskButton">Dodaj zadanie</button>
       </form>
    );
 };
