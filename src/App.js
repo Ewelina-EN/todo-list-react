@@ -11,7 +11,7 @@ function App() {
 
   const [hideDone, setHideDone] = useState(false);
 
-  const tasksFromStorage = localStorage.getItem("tasks");
+  const tasksFromStorage = localStorage.getItem("tasks"); 
 
   const [tasks, setTasks] = useState(
     tasksFromStorage
