@@ -14,8 +14,8 @@ export const Header = styled.header`
     flex-wrap: wrap;
 
     ${({ Header }) => Header && css`
-    @media (max-width: 767 px) {
-    flex-direction: column;
+        @media (max-width: 767 px) {
+        flex-direction: column;
   }`}
 `;
 
