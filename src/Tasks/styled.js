@@ -43,7 +43,7 @@ export const Button = styled.button`
         transition: 1s;
         
         &:hover {
-            background-color: hsl(120, 100%, 35%);
+            filter: brightness(110%);
         }
     `}
 
@@ -53,7 +53,7 @@ export const Button = styled.button`
         transition: 1s;
 
         &:hover {
-            background-color: hsl(0, 100%, 65%);
+            filter: brightness(120%);
         }
     `}
 `;
