@@ -14,7 +14,7 @@ export const StyledForm = styled.form`
     }
 `;
 
-export const NewTask = styled.input`
+export const Input = styled.input`
     flex-basis: 75%;
     flex-grow: 1;
     margin: 10px;
