@@ -9,22 +9,20 @@ export const StyledButtons = styled.div`
 
 export const Button = styled.button`
     background-color: transparent;
-    color: teal;
+    color: ${({ theme }) => theme.color.teal};
     margin: 5px;
     border: none;
     font-size: 15px;
     transition: 1s;
     cursor: pointer;
         &:hover {
-            color: hsl(180, 100%, 35%);
-            transition: 1s;
+            filter: brightness(110%);
         }
         &:active {
-            color: hsl(180, 100%, 40%);
-            transition: 1s;
+            filter: brightness(120%);
         }
         &:disabled {
-            color: #aaa;
+            color: ${({ theme }) => theme.color.grey};
             cursor: default;
         } 
 `;

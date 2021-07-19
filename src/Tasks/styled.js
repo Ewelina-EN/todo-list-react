@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 
 export const List = styled.ul`
-    background-color: white;
+    background-color: ${({ theme }) => theme.color.white};
     padding: 10px;
     margin: auto;
 `;
@@ -9,7 +9,7 @@ export const List = styled.ul`
 export const Item = styled.li`
     display: grid;
     grid-template-columns: auto 1fr auto;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid ${({ theme }) => theme.color.lightGrey};
     padding: 10px;
     align-items: center;
 
@@ -33,12 +33,12 @@ export const Button = styled.button`
     height: 30px;
     margin: 0 10px;
     border: none;
-    color: white;
+    color: ${({ theme }) => theme.color.white};
     font-size: 16px;
     align-self: center;
 
     ${({ done }) => done && css`
-        background-color: green;
+        background-color: ${({ theme }) => theme.color.green};
         cursor: pointer;
         transition: 1s;
         
@@ -48,7 +48,7 @@ export const Button = styled.button`
     `}
 
     ${({ remove }) => remove && css`
-        background-color: red;
+        background-color: ${({ theme }) => theme.color.red};
         cursor: pointer;
         transition: 1s;
 
