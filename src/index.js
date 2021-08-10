@@ -2,16 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import { ThemeProvider } from 'styled-components';
+import { Provider } from "react-redux";
 import { theme } from "./theme";
 import { GlobalStyle } from "./GlobalStyle";
 import App from "./App";
+import { addTask } from "./features/tasks/tasksSlice";
+import store from "./store";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
-      <GlobalStyle />
-      <App />
-    </ThemeProvider>
+    <Provider store={store}>
+      <ThemeProvider theme={theme}>
+        <GlobalStyle />
+        <App />
+      </ThemeProvider>
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
