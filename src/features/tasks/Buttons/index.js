@@ -18,7 +18,6 @@ const Buttons = () => {
           <Button
             onClick={() => dispatch(setAllDone())}
             disabled={tasks.every(({ done }) => done)}
-
           >
             Ukończ wszystkie
           </Button>
@@ -26,7 +25,5 @@ const Buttons = () => {
       )}
     </StyledButtons>
   );
-}
-
-
+};
 export default Buttons;
