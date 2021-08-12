@@ -6,7 +6,6 @@ import { Provider } from "react-redux";
 import { theme } from "./theme";
 import { GlobalStyle } from "./GlobalStyle";
 import App from "./App";
-import { addTask } from "./features/tasks/tasksSlice";
 import store from "./store";
 
 ReactDOM.render(
