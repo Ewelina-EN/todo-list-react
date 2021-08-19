@@ -16,12 +16,12 @@ const Form = () => {
       if (newTaskContent.trim() === "") {
          return;
       };
-
-      dispatch(addTask({
+      const task = {
          content: newTaskContent,
          done: false,
          id: nanoid(),
-      }));
+      };
+      dispatch(addTask(task));
 
       setNewTaskContent("");
       inputRef.current.focus();
