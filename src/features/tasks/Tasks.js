@@ -5,6 +5,7 @@ import Buttons from "./Buttons";
 import Section from "../../common/Section";
 import Header from "../../common/Header";
 import StyledContainer from "../../common/Container";
+import DownloadButton from "./Buttons/downloadButton";
 
 function Tasks() {
   return (
@@ -13,6 +14,7 @@ function Tasks() {
       <Section
         title="Dodaj nowe zadanie"
         body={< Form />}
+        extraHeaderContent={<DownloadButton />}
       />
       <Section
         title="Lista zadań"
