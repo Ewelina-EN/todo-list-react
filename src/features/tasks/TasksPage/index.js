@@ -1,13 +1,13 @@
 import React from 'react';
 import Form from "./Form";
 import TaskList from "./TaskList";
-import Buttons from "./Buttons";
-import Section from "../../common/Section";
-import Header from "../../common/Header";
-import StyledContainer from "../../common/Container";
-import DownloadButton from "./Buttons/downloadButton";
+import Buttons from "./Buttons/index";
+import Section from "../../../common/Section";
+import Header from "../../../common/Header";
+import StyledContainer from "../../../common/Container";
+import DownloadButton from "../TasksPage/Buttons/downloadButton";
 
-function Tasks() {
+function TasksPage() {
   return (
     <StyledContainer>
       <Header title="Lista zadań" />
@@ -25,4 +25,4 @@ function Tasks() {
   );
 }
 
-export default Tasks;
+export default TasksPage;

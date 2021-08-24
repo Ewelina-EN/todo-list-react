@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { StyledButtons, Button } from "./styled";
-import { fetchExampleTasks } from "../tasksSlice";
+import { fetchExampleTasks } from "../../tasksSlice";
 
 const DownloadButton = () => {
     const dispatch = useDispatch();
