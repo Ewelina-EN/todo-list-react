@@ -15,14 +15,6 @@ export const StyledForm = styled.form`
     }
 `;
 
-export const Input = styled.input`
-    flex-basis: 75%;
-    flex-grow: 1;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid ${({ theme }) => theme.color.lightGrey};
-`;
-
 export const Button = styled.button`
     flex-grow: 1;
     background-color: ${({ theme }) => theme.color.teal};
