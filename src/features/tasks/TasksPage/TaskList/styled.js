@@ -23,8 +23,11 @@ export const Item = styled.li`
 
 export const Content = styled.span`
     ${({ done }) => done && css`
-        text-decoration: line-through;
+    text-decoration: line-through;
     `}
+    & a {
+        text-decoration: none;
+    }
 `;
 
 export const Button = styled.button`
