@@ -16,6 +16,9 @@ export const StyledNavLink = styled(NavLink).attrs(() => ({
     text-decoration: none;
     color: ${({ theme }) => theme.color.white};
     padding: 20px;
+    &:hover {
+        text-decoration: underline;
+    }
 &.${activeClassName} {
     font-weight: bolder;
     }
