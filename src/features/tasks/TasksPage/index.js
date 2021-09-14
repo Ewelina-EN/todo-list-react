@@ -5,7 +5,7 @@ import Buttons from "./Buttons/index";
 import Section from "../../../common/Section";
 import Header from "../../../common/Header";
 import StyledContainer from "../../../common/Container";
-import DownloadButton from "../TasksPage/Buttons/downloadButton";
+import DownloadButton from "./DownloadButtons/DownloadButton";
 import Search from './Search';
 
 function TasksPage() {
@@ -28,6 +28,6 @@ function TasksPage() {
       />
     </StyledContainer>
   );
-}
+};
 
 export default TasksPage;

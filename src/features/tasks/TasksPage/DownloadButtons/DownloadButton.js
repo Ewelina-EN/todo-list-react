@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { StyledButtons, Button } from "./styled";
+import { StyledButtons, Button } from "../Buttons/styled";
 import { fetchExampleTasks, selectLoading } from "../../tasksSlice";
 
 const DownloadButton = () => {
@@ -8,7 +8,6 @@ const DownloadButton = () => {
     const loading = useSelector(selectLoading);
     return (
         <StyledButtons>
-            <>
                 <Button
                     disabled={loading}
                     onClick={() => dispatch(fetchExampleTasks())}>
@@ -18,8 +17,8 @@ const DownloadButton = () => {
                     : "Pobierz przykładowe zadanie"
                 } 
                 </Button>
-            </>
         </StyledButtons>
     );
 };
+
 export default DownloadButton;
